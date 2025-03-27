@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+*.env
+.env.local
+
+# Logs and database files
+*.log
+*.sqlite3
+db.sqlite3
+instance/
+
+# Cache and temp files
+*.cache
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swn
+
+# Editor and system files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Docker and build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+pip-wheel-metadata/
+__pypackages__/
+htmlcov/
+
+# Poetry & pip dependencies
+.poetry/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations (optional)
+migrations/
+
+# FastAPI specific
+*.pid
+instance/
+uploads/
+media/
+static/
+
+# PostgreSQL related
+pgdata/
+*.pgsql
+dump.sql
